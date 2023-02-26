@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+div {
+    filter: drop-shadow(0px 4px 8px #fff );
+}
+
+h2 {
+    filter: drop-shadow(2px 2px 2px #87DC2B );
+}
+img {
+    filter: drop-shadow(6px 6px 6px #FFFFFF );
+}
+
+button{
+    filter: drop-shadow(0px .5px .5px #fff );
+}
