@@ -13,8 +13,8 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center bg-black md:w-screen md:h-screen">
-      <h1 className=" shadow-white shadow-xl border-2 border-white md:w-auto md:h-auto text-white bg-transparent text-7xl font-bold justify-center items-center text-center drop-shadow-4xl rounded">Frameworks de JavaScript</h1>
+    <div className="flex flex-col justify-center items-center bg-black w-full h-full">
+      <h1 className=" min-w-320 shadow-white shadow-xl border-2 border-white w-auto h-auto text-white bg-transparent text-6xl font-bold justify-center items-center text-center drop-shadow-4xl rounded box-content">Frameworks de JavaScript</h1>
       <Card framework={frameworks[indexVisibleFramework]} 
       changeFramework={changeFramework}
       />
